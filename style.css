@@ -1,0 +1,76 @@
+/*html {
+  font-size: 10px;
+}*/
+body {
+  background: #f4f7fc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.box-note{
+  margin-top: 60px;
+  text-align: center;
+}
+.notepad-page {
+  max-width: 600px;
+  min-height: 400px;
+  margin: 0 0 60px 0;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 2rem 1rem 3rem;
+  background: -webkit-gradient(linear,0 0,0 100%, from(#d9eaf3), color-stop(4%, #fff) ) 0 4px;
+  background-size: 100% 2rem;
+  position: relative;
+  line-height: 2rem;
+}
+
+.notepad-page:focus{
+  outline:none;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 0 0rem;
+}
+
+.notepad-page:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+
+/* Footer CSS */
+footer.page-footer{
+  bottom: 0;
+  padding-top: 0px !important;
+  position: relative;
+  width: 100%;
+}
+footer.page-footer .row{
+  margin-bottom: 0px;
+}
+
+footer.page-footer .footer-copyright{
+  font-size: 14px;
+}
+
+footer.page-footer .footer-copyright a .material-icons{
+  line-height: 2;
+  margin-left: 10px;
+}
+/* Footer CSS */
+
+/* Play/Pause Buttons */
+.action-buttons .btn-floating.mic-off{
+  display: none;
+}
+/* Play/Pause Buttons */
